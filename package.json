@@ -1,8 +1,7 @@
 {
-  "title": "Grayscale",
-  "name": "startbootstrap-grayscale",
-  "version": "4.0.0-beta",
-  "description": "A grayscale one page HTML theme for Bootstrap.",
+  "title": "Jacob Devera",
+  "name": "portfolio",
+  "description": "My portfolio website",
   "keywords": [
     "css",
     "sass",
@@ -11,20 +10,6 @@
     "theme",
     "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/grayscale",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
-    "email": "feedback@startbootstrap.com"
-  },
-  "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
-  },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "font-awesome": "4.7.0",
