@@ -42,7 +42,7 @@ a:hover {
 
 #mainNav {
     font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 0;
     border-bottom: 1px solid rgba(107, 107, 107, 0.3);
     background-color: lightskyblue;
@@ -91,15 +91,12 @@ a:hover {
     #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 1px solid rgba(107, 107, 107, 0.3);
+        color: rgba(107, 107, 107, 0.3);
     }
     #mainNav .nav-link:hover {
         outline: none;
-        background-color: rgba(107, 107, 107, 0.3);
+        color: rgba(107, 107, 107, 0.3);
         border-radius: 3px;
-    }
-    #mainNav .nav-link.active:hover {
-        color: white;
     }
 }
 
@@ -174,7 +171,6 @@ a:hover {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    text-transform: uppercase;
     border-radius: 3px;
 }
 
