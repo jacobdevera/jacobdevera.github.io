@@ -74,24 +74,35 @@ p {
 
 .masthead {
     position: relative;
-    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20rem;
     width: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
     text-align: center;
     color: white;
 }
 
-.masthead .intro-body {
-    display: table-cell;
-    vertical-align: middle;
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
 }
 
 .masthead .intro-body .brand-heading {
     font-size: 50px;
+    animation: fadeInUp 1s;
 }
 
 .masthead .intro-body .intro-text {
     font-size: 18px;
+    animation: fadeInUp 1s;
 }
 
 @media (min-width: 768px) {
@@ -122,43 +133,20 @@ p {
 .btn-circle:hover {
     color: white;
     outline: none;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 #intro-scroll {
     position: absolute;
     bottom: 0;
-    left: 50%;
-    -webkit-transform: translatex(-50%);
-    -moz-transform: translatex(-50%);
-    -ms-transform: translatex(-50%);
-    -o-transform: translatex(-50%);
-    transform: translatex(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: fadeInUp 1s;
 }
 
 .content-section {
     padding: 150px 0;
-}
-
-.btn {
-    font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    border-radius: 3px;
-}
-
-.btn-default {
-    color: white;
-    background-color: transparent;
-}
-
-.btn-default:focus,
-.btn-default:hover {
-    color: lightskyblue;
-    outline: none;
-    background-color: white;
 }
 
 ul.banner-social-buttons {
@@ -181,7 +169,6 @@ ul.banner-social-buttons {
     border-radius: 3px;
     text-align: center;
     vertical-align: middle;
-    transition: all 0.3s ease;
 }
 
 .portfolio-item:hover .project-info {
