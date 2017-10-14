@@ -4,11 +4,8 @@
   "description": "My portfolio website",
   "keywords": [
     "css",
-    "sass",
     "html",
-    "responsive",
-    "theme",
-    "template"
+    "responsive"
   ],
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
