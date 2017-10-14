@@ -169,6 +169,10 @@ ul.banner-social-buttons {
     right: 0;
 }
 
+.portfolio-item:hover {
+    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.2);
+}
+
 .portfolio-item:hover .project-info {
     opacity: 1;
 }
@@ -178,7 +182,7 @@ ul.banner-social-buttons {
 }
 
 .project-info {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
     opacity: 0;
     transition: all 0.3s;
 }
