@@ -15,7 +15,7 @@ body {
 }
 
 div {
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 h1, h3, h4, h5 {
@@ -45,6 +45,10 @@ p {
 a, .navbar-dark .navbar-nav .nav-link {
     color: white;
     transition: all 0.3s;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 #mainNav a:hover, #intro-scroll:hover, .banner-social-buttons a:hover {
@@ -136,14 +140,21 @@ a, .navbar-dark .navbar-nav .nav-link {
 .portfolio-item {
     display: flex;
     align-items: center;
-    text-align: center;
     margin: .5em;
     background-color: hsl(205, 27%, 62%);
     box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-item img {
-    max-width: 100%;
+.portfolio-item .card-image {
+    margin-top: 15px;
+    height: 200px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.project-inner {
+    padding: 30px;
 }
 
 .portfolio-item:hover .project-info {
@@ -152,7 +163,7 @@ a, .navbar-dark .navbar-nav .nav-link {
 }
 
 .portfolio-item:hover .project-text {
-    transform: translateY(25%);
+    transform: translateY(50%);
 }
 
 .project-info, .project-text {
@@ -170,7 +181,7 @@ a, .navbar-dark .navbar-nav .nav-link {
 }
 
 .project-text {
-    transform: translateY(50%);
+    transform: translateY(75%);
 }
 
 ul.banner-social-buttons {
