@@ -164,6 +164,7 @@ a:hover {
 }
 
 .portfolio-item:hover .project-text {
+    bottom: 50%;
     transform: translateY(50%);
     visibility: visible;
 }
@@ -173,18 +174,18 @@ a:hover {
     visibility: hidden;
     left: 0;
     right: 0;
-    bottom: 0;
-    top: 0;
     transition: all 0.3s;
 }
 
 .project-info {
     background-color: rgba(0, 0, 0, 0.6);
     opacity: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .project-text {
-    transform: translateY(75%);
+    bottom: 25%;
 }
 
 ul.banner-social-buttons {
