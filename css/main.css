@@ -160,14 +160,17 @@ a:hover {
 .portfolio-item:hover .project-info {
     box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.2);
     opacity: 1;
+    visibility: visible;
 }
 
 .portfolio-item:hover .project-text {
     transform: translateY(50%);
+    visibility: visible;
 }
 
 .project-info, .project-text {
     position: absolute;
+    visibility: hidden;
     left: 0;
     right: 0;
     bottom: 0;
