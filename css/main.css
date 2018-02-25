@@ -139,6 +139,10 @@ a:hover {
     min-height: calc(100vh);
 }
 
+.portfolio-container {
+    margin-bottom: 30px;
+}
+
 .portfolio-item {
     margin: 15px 0;
     display: flex;
