@@ -195,6 +195,15 @@ a:hover {
     bottom: 25%;
 }
 
+#portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    height: 300px;
+    border-radius: 10px;
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
