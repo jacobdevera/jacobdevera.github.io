@@ -8,7 +8,7 @@ body {
     font-weight: 300;
     text-align: left;
     position: relative;
-    line-height: 2em;
+    line-height: 1.5em;
     color: white;
     background-color: #7395AE;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
@@ -29,7 +29,7 @@ h2 {
 }
 
 p {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.65);
 }
 
 #mainNav {
@@ -96,7 +96,7 @@ a:hover {
 }
 
 .masthead .intro-body .intro-text {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.65);
     font-size: 22px;
 }
 
@@ -140,28 +140,40 @@ a:hover {
 }
 
 .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-gap: 15px 15px;
+    margin-top: 15px;
     margin-bottom: 30px;
 }
 
 .portfolio-item {
-    margin: 15px 0;
+    position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     background-color: hsl(205, 27%, 62%);
     box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio-item .card-image {
-    margin: 15px;
+    margin: 20px 20px 0px 20px;
     height: 300px;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
 }
 
+.portfolio-item .card-image-contain {
+    background-size: contain;
+}
+
 .project-inner {
-    padding: 30px;
+    padding: 1.5rem;
+}
+
+.project-inner p {
+    margin-bottom: 0;
 }
 
 .portfolio-item:hover .project-info {
