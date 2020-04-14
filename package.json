@@ -7,9 +7,13 @@
     "html",
     "responsive"
   ],
+  "scripts": {
+    "start": "http-server"
+  },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "font-awesome": "4.7.0",
+    "http-server": "^0.12.1",
     "jquery": "^3.2.1",
     "jquery.easing": "^1.4.1",
     "popper.js": "^1.11.1"

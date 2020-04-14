@@ -10,7 +10,7 @@ body {
     position: relative;
     line-height: 1.5em;
     color: white;
-    background-color: #7395AE;
+    background-color: hsl(205, 27%, 27%);
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -35,7 +35,7 @@ p {
 #mainNav {
     font-weight: 400;
     margin-bottom: 0;
-    background-color: rgba(115, 149, 174, 1);
+    background-color: hsl(205, 27%, 27%);
 }
 
 #mainNav.navbar-shrink {
@@ -152,8 +152,8 @@ a:hover {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background-color: hsl(205, 27%, 62%);
-    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.1);
+    background-color: hsl(205, 27%, 27%);
+    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.5);
 }
 
 .portfolio-item .card-image {
