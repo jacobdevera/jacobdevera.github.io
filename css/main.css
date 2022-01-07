@@ -1,16 +1,21 @@
+:root {
+    --header-text-color: #282b42;
+    --text-color: #727483;
+}
+
 html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 300;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
     text-align: left;
     position: relative;
     line-height: 1.5em;
-    color: white;
-    background-color: hsl(205, 27%, 27%);
+    color: var(--text-color);
+    background-color: white;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -19,13 +24,16 @@ div {
 }
 
 h1, h3, h4, h5 {
-    font-weight: 300;
+    font-weight: 600;
     text-align: center;
     line-height: 2rem;
+    color: var(--header-text-color);
 }
 
 h2 {
+    font-weight: 600;
     margin-bottom: 1em;
+    color: var(--header-text-color);
 }
 
 .content-subsection-heading {
@@ -33,13 +41,13 @@ h2 {
 }
 
 p {
-    color: rgba(255, 255, 255, 0.65);
+    color: var(--text-color);
 }
 
 #mainNav {
     font-weight: 400;
     margin-bottom: 0;
-    background-color: hsl(205, 27%, 27%);
+    background-color: white;
 }
 
 #mainNav.navbar-shrink {
@@ -47,7 +55,7 @@ p {
 }
 
 a, .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    color: var(--text-color);
     transition: all 0.3s;
 }
 
@@ -56,7 +64,7 @@ a:hover {
 }
 
 #mainNav a:hover, #intro-scroll:hover, .banner-social-buttons a:hover {
-    color: #023047;
+    color: var(--header-text-color);
 }
 
 @media (min-width: 992px) { /* large screens */
@@ -79,8 +87,9 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    min-height: calc(100vh);
     text-align: center;
+    margin-top: 128px;
+    margin-bottom: 128px;
 }
 
 @keyframes fadeInUp {
@@ -101,7 +110,7 @@ a:hover {
 }
 
 .masthead .intro-body .intro-text {
-    color: rgba(255, 255, 255, 0.65);
+    color: var(--text-color);
     font-size: 22px;
     margin-top: 1rem;
 }
@@ -120,7 +129,7 @@ a:hover {
     -webkit-transition: background 0.3s ease-in-out;
     -moz-transition: background 0.3s ease-in-out;
     transition: background 0.3s ease-in-out;
-    color: white;
+    color: var(--text-color);
     border-radius: 100%;
     background: transparent;
 }
@@ -128,7 +137,7 @@ a:hover {
 .btn-circle:focus,
 .btn-circle:hover {
     outline: none;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: var(--text-color);
 }
 
 #intro-scroll {
@@ -162,8 +171,8 @@ a:hover {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background-color: hsl(205, 27%, 27%);
-    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio-item .card-image {
@@ -214,6 +223,8 @@ a:hover {
 }
 
 .project-text {
+    text-align: center;
+    font-size: 1.5rem;
     bottom: 25%;
 }
 
@@ -228,4 +239,22 @@ a:hover {
 
 ul.banner-social-buttons {
     margin-top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --header-text-color: #f6f1f4;
+        --text-color: #b8b7d1;
+    }
+    body {
+        background-color: #23273a;
+    }
+
+    #mainNav {
+        background-color: #23273a;
+    }
+
+    .portfolio-item {
+        background-color: #23273a;
+    }
 }

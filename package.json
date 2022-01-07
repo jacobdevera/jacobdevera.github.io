@@ -8,16 +8,15 @@
     "responsive"
   ],
   "scripts": {
-    "start": "http-server"
+    "start": "live-server"
   },
   "dependencies": {
     "bootstrap": "^4.6.1",
     "font-awesome": "4.7.0",
-    "http-server": "^14.0.0",
     "jquery": "^3.5.0",
     "jquery.easing": "^1.4.1",
-    "nodemon": "^2.0.15",
-    "popper.js": "^1.11.1"
+    "live-server": "^1.2.1",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
     "browser-sync": "^2.27.7",
