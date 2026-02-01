@@ -11,21 +11,13 @@
     "start": "live-server"
   },
   "dependencies": {
-    "bootstrap": "^4.6.1",
-    "font-awesome": "4.7.0",
-    "jquery": "^3.5.0",
-    "jquery.easing": "^1.4.1",
-    "live-server": "^1.2.1",
-    "popper.js": "^1.16.1"
+    "bootstrap": "^5.3.8",
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@popperjs/core": "^2.11.8",
+    "live-server": "^1.2.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.27.7",
     "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-header": "^2.0.9",
-    "gulp-imagemin": "^8.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^5.1.0",
-    "gulp-uglify": "3.0.0"
+    "gulp-imagemin": "^8.0.0"
   }
 }

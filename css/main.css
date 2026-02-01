@@ -186,6 +186,18 @@ a:hover {
     background-size: contain;
 }
 
+/* Project specific background images */
+.uwnightmarket-bg { background-image: url(../img/uwnightmarket.png); }
+.imgrab-bg { background-image: url(../img/imgrab.png); }
+.ocr-manager-logo-bg { background-image: url(../img/ocr-manager-logo.png); }
+.easypark-top-bg { background-image: url(../img/easypark-top.png); }
+.lit-min-bg { background-image: url(../img/lit-min.png); }
+.pokemon-min-bg { background-image: url(../img/pokemon-min.png); }
+.nimbus-bg { background-image: url(../img/nimbus.png); }
+.chameleon-music-bg { background-image: url(../img/chameleon-music.png); }
+.pokemon-infographic-bg { background-image: url(../img/pokemon-infographic.png); }
+
+
 .project-inner {
     padding: 1.5rem;
 }
