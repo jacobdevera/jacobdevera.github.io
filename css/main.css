@@ -197,6 +197,14 @@ a:hover {
 .chameleon-music-bg { background-image: url(../img/chameleon-music.png); }
 .pokemon-infographic-bg { background-image: url(../img/pokemon-infographic.png); }
 
+.image-frame {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 5px;
+    background-color: white;
+}
+
 
 .project-inner {
     padding: 1.5rem;
