@@ -57,6 +57,7 @@ p {
 a, .navbar-dark .navbar-nav .nav-link {
     color: var(--text-color);
     transition: all 0.3s;
+    text-decoration: none;
 }
 
 a:hover {
@@ -271,5 +272,11 @@ ul.banner-social-buttons {
 
     .portfolio-item {
         background-color: #23273a;
+    }
+
+    .image-frame {
+        background-color: #2e344e; /* A darker background */
+        border: 1px solid #4a547a; /* A darker border */
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Slightly stronger shadow */
     }
 }
